@@ -1,5 +1,7 @@
 // import { useState } from 'react'
 
+import Footer from "./components/general/Footer/Footer"
+
 
 function App() {
  
@@ -9,6 +11,7 @@ function App() {
       <p>hola mundo
         
       </p>
+      <Footer/>
     </>
   )
 }
