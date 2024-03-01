@@ -1,15 +1,11 @@
-// import { useState } from 'react'
+import React from 'react'
+import NavScrollExample from './componentes/general/navbar'
 
-
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-      <p>hola mundo
-        
-      </p>
-    </>
+    <div>
+      <NavScrollExample/>
+    </div>
   )
 }
 
