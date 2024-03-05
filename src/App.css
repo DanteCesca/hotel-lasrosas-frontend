@@ -1,3 +1,29 @@
-*{
-    -o-object-fit: ;
-}
+:root {
+    --letras: #F8F7F6;
+    --color-2: #E0E5E7;
+    --color-3: #E3D9C8;
+    --color-4: #BAB7B2;
+    --baige-claro: #D8A989;
+    --color-6: #C28061;
+    --button: #7D6F45;
+    --color-8: #69422D;
+  }
+
+  .navbar{
+    background-color: var(--baige-claro);
+  }
+
+  h2{
+    color: var(--letras);
+  }
+
+  .my-custom-button {
+    background-color: var(--button);
+    border: none;
+    color: var(--letras); 
+    padding: 10px 20px;
+  }
+  
+  .my-custom-button:hover {
+    background-color: #6a5d3d;
+  }

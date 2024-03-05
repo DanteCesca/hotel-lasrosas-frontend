@@ -6,7 +6,7 @@ import logo from '../../assets/logo.jpg'
 const NavScrollExample = () => {
   
   return (
-    <Navbar expand="lg" style={{background: '#D8A989'}} className="fixed-top">
+    <Navbar expand="lg" className="navbar fixed-top">
       <Container fluid>
         <Navbar.Brand href="#" className='d-flex align-items-center'>
           <Image
@@ -22,12 +22,12 @@ const NavScrollExample = () => {
         
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Form className="ms-auto">
-            <Button variant="primary me-2">Habitaciones</Button>
-            <Button variant="primary me-2">Register</Button>
-            <Button variant="primary me-2">Log-In</Button>
-          </Form>
-        </Navbar.Collapse>
+      <Form className="ms-auto">
+        <Button className='btn my-custom-button me-2'>Habitaciones</Button>
+        <Button className='btn my-custom-button me-2'>Register</Button>
+        <Button className='btn my-custom-button me-2'>Log-In</Button>
+      </Form>
+    </Navbar.Collapse>
       </Container>
     </Navbar>
   );
